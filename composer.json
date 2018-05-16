@@ -1,0 +1,21 @@
+{
+  "name": "topconcepts/jobinstance",
+  "type": "oxideshop-module",
+  "version": "2.0.0",
+  "extra": {
+    "oxideshop": {
+      "blacklist-filter": [
+        "documentation/**/*.*"
+      ],
+      "target-directory": "tc/tcjobinstance"
+    }
+  },
+  "require": {
+    "php": ">=5.6"
+  },
+  "autoload": {
+    "psr-4": {
+      "TopConcepts\\JobInstance\\": "./"
+    }
+  }
+}

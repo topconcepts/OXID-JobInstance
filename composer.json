@@ -1,5 +1,6 @@
 {
   "name": "topconcepts/oxid-jobinstance",
+  "description": "Cronjob Instance module for OXID eShop version 6.0.X",
   "type": "oxideshop-module",
   "version": "2.0.0",
   "extra": {
